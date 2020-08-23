@@ -1,0 +1,15 @@
+paytm.payment:
+  config:
+    merchantId: id
+    merchantKey: key
+    channelId: WEB
+    website: WEBSTAGING
+    industryTypeId: Retail
+    paytmUrl:  https://securegw-stage.paytm.in/order/process
+    callbackUrl: http://localhost:9090/pgresponse
+    details:
+      MID: ${paytm.payment.vsms.merchantid}
+      CHANNEL_ID: ${paytm.payment.vsms.channelid}
+      INDUSTRY_TYPE_ID: ${paytm.payment.vsms.industrytypeid}
+      WEBSITE: ${paytm.payment.vsms.website}
+      CALLBACK_URL: ${paytm.payment.vsms.callbackUrl}

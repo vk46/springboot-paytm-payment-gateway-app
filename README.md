@@ -12,4 +12,4 @@ Paytm All-in-One payment gateway for your business. Powerful and secure with 99.
 *Verify Checksum:*
 1. public boolean verifycheckSum(String masterKey, TreeMap<String, String> paramap,String responseCheckSumString)
 
-Jar Link: [paytm-checksum 2.0.jar](https://nexus-repo.egovernments.org/nexus/content/repositories/releases/com/paytm/paytm-checksum/2.0.0/)
+*Jar Link:* [paytm-checksum 2.0.jar](https://nexus-repo.egovernments.org/nexus/content/repositories/releases/com/paytm/paytm-checksum/2.0.0/)
